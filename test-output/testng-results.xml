@@ -1,0 +1,575 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="30" passed="30" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-09-17T11:54:08 PDT" name="Tutorials_Ninja_S2_Automation_Suite" finished-at="2024-09-17T11:57:41 PDT" duration-ms="213617">
+    <groups>
+    </groups>
+    <test started-at="2024-09-17T11:54:08 PDT" name="Tutorials_NinJa_S2_Test" finished-at="2024-09-17T11:57:41 PDT" duration-ms="213617">
+      <class name="com.qa.tutorialsninjaS2.testcases.S2_Inbox">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.qa.tutorialsninjaS2.testcases.S2_Inbox@6c284af]" started-at="2024-09-17T11:54:27 PDT" name="setUp" finished-at="2024-09-17T11:54:34 PDT" duration-ms="6966" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="validLogin()[pri:1, instance:com.qa.tutorialsninjaS2.testcases.S2_Inbox@6c284af]" started-at="2024-09-17T11:54:34 PDT" name="validLogin" finished-at="2024-09-17T11:54:36 PDT" duration-ms="2172" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validLogin -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.tutorialsninjaS2.testcases.S2_Inbox@6c284af]" started-at="2024-09-17T11:54:36 PDT" name="tearDown" finished-at="2024-09-17T11:54:36 PDT" duration-ms="204" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qa.tutorialsninjaS2.testcases.S2_Inbox -->
+      <class name="com.qa.tutorialsninjaS2.testcases.S2_Login">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.qa.tutorialsninjaS2.testcases.S2_Login@231f98ef]" started-at="2024-09-17T11:55:17 PDT" name="setUp" finished-at="2024-09-17T11:55:22 PDT" duration-ms="4695" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="loginWithValidCredentialsUsingDataProvider(java.lang.String,java.lang.String)[pri:1, instance:com.qa.tutorialsninjaS2.testcases.S2_Login@231f98ef]" started-at="2024-09-17T11:55:22 PDT" name="loginWithValidCredentialsUsingDataProvider" data-provider="TutorialsNinja_S2_DataProvider_DataSupply" finished-at="2024-09-17T11:55:24 PDT" duration-ms="2000" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[shajlee@yahoo.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Potter1@]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginWithValidCredentialsUsingDataProvider -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.tutorialsninjaS2.testcases.S2_Login@231f98ef]" started-at="2024-09-17T11:55:24 PDT" name="tearDown" finished-at="2024-09-17T11:55:24 PDT" duration-ms="203" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.qa.tutorialsninjaS2.testcases.S2_Login@231f98ef]" started-at="2024-09-17T11:55:24 PDT" name="setUp" finished-at="2024-09-17T11:55:29 PDT" duration-ms="5038" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="loginWithValidCredentialsUsingDataProvider(java.lang.String,java.lang.String)[pri:1, instance:com.qa.tutorialsninjaS2.testcases.S2_Login@231f98ef]" started-at="2024-09-17T11:55:29 PDT" name="loginWithValidCredentialsUsingDataProvider" data-provider="TutorialsNinja_S2_DataProvider_DataSupply" finished-at="2024-09-17T11:55:31 PDT" duration-ms="1985" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[rifi_luver@hotmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Aniqa1@]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginWithValidCredentialsUsingDataProvider -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.tutorialsninjaS2.testcases.S2_Login@231f98ef]" started-at="2024-09-17T11:55:31 PDT" name="tearDown" finished-at="2024-09-17T11:55:32 PDT" duration-ms="202" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.qa.tutorialsninjaS2.testcases.S2_Login@231f98ef]" started-at="2024-09-17T11:55:32 PDT" name="setUp" finished-at="2024-09-17T11:55:36 PDT" duration-ms="4806" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="loginWithValidCredentialsUsingDataProvider(java.lang.String,java.lang.String)[pri:1, instance:com.qa.tutorialsninjaS2.testcases.S2_Login@231f98ef]" started-at="2024-09-17T11:55:36 PDT" name="loginWithValidCredentialsUsingDataProvider" data-provider="TutorialsNinja_S2_DataProvider_DataSupply" finished-at="2024-09-17T11:55:38 PDT" duration-ms="1977" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chowdhurygs@rediffmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Shajlee1@]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginWithValidCredentialsUsingDataProvider -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.tutorialsninjaS2.testcases.S2_Login@231f98ef]" started-at="2024-09-17T11:55:38 PDT" name="tearDown" finished-at="2024-09-17T11:55:39 PDT" duration-ms="193" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.qa.tutorialsninjaS2.testcases.S2_Login@231f98ef]" started-at="2024-09-17T11:55:39 PDT" name="setUp" finished-at="2024-09-17T11:55:44 PDT" duration-ms="4999" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="loginWithValidCredentialsUsingDataProvider(java.lang.String,java.lang.String)[pri:1, instance:com.qa.tutorialsninjaS2.testcases.S2_Login@231f98ef]" started-at="2024-09-17T11:55:44 PDT" name="loginWithValidCredentialsUsingDataProvider" data-provider="TutorialsNinja_S2_DataProvider_DataSupply" finished-at="2024-09-17T11:55:46 PDT" duration-ms="2057" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chowdhurygsa@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Shajlee123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginWithValidCredentialsUsingDataProvider -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.tutorialsninjaS2.testcases.S2_Login@231f98ef]" started-at="2024-09-17T11:55:46 PDT" name="tearDown" finished-at="2024-09-17T11:55:46 PDT" duration-ms="197" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.qa.tutorialsninjaS2.testcases.S2_Login@231f98ef]" started-at="2024-09-17T11:55:46 PDT" name="setUp" finished-at="2024-09-17T11:55:50 PDT" duration-ms="4546" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="loginWithValidCredentialsUsingDataProvider(java.lang.String,java.lang.String)[pri:1, instance:com.qa.tutorialsninjaS2.testcases.S2_Login@231f98ef]" started-at="2024-09-17T11:55:50 PDT" name="loginWithValidCredentialsUsingDataProvider" data-provider="TutorialsNinja_S2_DataProvider_DataSupply" finished-at="2024-09-17T11:55:52 PDT" duration-ms="2028" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[nawshinaniqa@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Kiyaan123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginWithValidCredentialsUsingDataProvider -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.tutorialsninjaS2.testcases.S2_Login@231f98ef]" started-at="2024-09-17T11:55:52 PDT" name="tearDown" finished-at="2024-09-17T11:55:53 PDT" duration-ms="206" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.qa.tutorialsninjaS2.testcases.S2_Login@231f98ef]" started-at="2024-09-17T11:55:53 PDT" name="setUp" finished-at="2024-09-17T11:55:58 PDT" duration-ms="5567" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="loginWithValidCredentialsUsingDataProvider(java.lang.String,java.lang.String)[pri:1, instance:com.qa.tutorialsninjaS2.testcases.S2_Login@231f98ef]" started-at="2024-09-17T11:55:58 PDT" name="loginWithValidCredentialsUsingDataProvider" data-provider="TutorialsNinja_S2_DataProvider_DataSupply" finished-at="2024-09-17T11:56:01 PDT" duration-ms="2979" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[gkcmono@yahoo.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[poultry13]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginWithValidCredentialsUsingDataProvider -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.tutorialsninjaS2.testcases.S2_Login@231f98ef]" started-at="2024-09-17T11:56:01 PDT" name="tearDown" finished-at="2024-09-17T11:56:01 PDT" duration-ms="215" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.qa.tutorialsninjaS2.testcases.S2_Login@231f98ef]" started-at="2024-09-17T11:56:01 PDT" name="setUp" finished-at="2024-09-17T11:56:06 PDT" duration-ms="4813" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="loginWithValidCredentialsUsingDataProvider(java.lang.String,java.lang.String)[pri:1, instance:com.qa.tutorialsninjaS2.testcases.S2_Login@231f98ef]" started-at="2024-09-17T11:56:06 PDT" name="loginWithValidCredentialsUsingDataProvider" data-provider="TutorialsNinja_S2_DataProvider_DataSupply" finished-at="2024-09-17T11:56:08 PDT" duration-ms="2281" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chowdhurygs@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Shajlee1234]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginWithValidCredentialsUsingDataProvider -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.tutorialsninjaS2.testcases.S2_Login@231f98ef]" started-at="2024-09-17T11:56:08 PDT" name="tearDown" finished-at="2024-09-17T11:56:09 PDT" duration-ms="209" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.qa.tutorialsninjaS2.testcases.S2_Login@231f98ef]" started-at="2024-09-17T11:56:09 PDT" name="setUp" finished-at="2024-09-17T11:56:14 PDT" duration-ms="4939" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="loginWithValidCredentialsUsingDataProvider(java.lang.String,java.lang.String)[pri:1, instance:com.qa.tutorialsninjaS2.testcases.S2_Login@231f98ef]" started-at="2024-09-17T11:56:14 PDT" name="loginWithValidCredentialsUsingDataProvider" data-provider="TutorialsNinja_S2_DataProvider_DataSupply" finished-at="2024-09-17T11:56:16 PDT" duration-ms="2001" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[golamchodhury@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Shajlee123!]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginWithValidCredentialsUsingDataProvider -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.tutorialsninjaS2.testcases.S2_Login@231f98ef]" started-at="2024-09-17T11:56:16 PDT" name="tearDown" finished-at="2024-09-17T11:56:16 PDT" duration-ms="200" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.qa.tutorialsninjaS2.testcases.S2_Login@231f98ef]" started-at="2024-09-17T11:56:17 PDT" name="setUp" finished-at="2024-09-17T11:56:22 PDT" duration-ms="5292" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="loginWithValidCredentialsUsingExcelSheet(java.lang.String,java.lang.String)[pri:2, instance:com.qa.tutorialsninjaS2.testcases.S2_Login@231f98ef]" started-at="2024-09-17T11:56:22 PDT" name="loginWithValidCredentialsUsingExcelSheet" data-provider="TutorialsNinja_S1_ExcelSheet_DataSupply" finished-at="2024-09-17T11:56:24 PDT" duration-ms="2018" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[shajlee@yahoo.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Potter1@]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginWithValidCredentialsUsingExcelSheet -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.tutorialsninjaS2.testcases.S2_Login@231f98ef]" started-at="2024-09-17T11:56:24 PDT" name="tearDown" finished-at="2024-09-17T11:56:24 PDT" duration-ms="202" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.qa.tutorialsninjaS2.testcases.S2_Login@231f98ef]" started-at="2024-09-17T11:56:24 PDT" name="setUp" finished-at="2024-09-17T11:56:29 PDT" duration-ms="4636" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="loginWithValidCredentialsUsingExcelSheet(java.lang.String,java.lang.String)[pri:2, instance:com.qa.tutorialsninjaS2.testcases.S2_Login@231f98ef]" started-at="2024-09-17T11:56:29 PDT" name="loginWithValidCredentialsUsingExcelSheet" data-provider="TutorialsNinja_S1_ExcelSheet_DataSupply" finished-at="2024-09-17T11:56:31 PDT" duration-ms="1982" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[rifi_luver@hotmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Aniqa1@]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginWithValidCredentialsUsingExcelSheet -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.tutorialsninjaS2.testcases.S2_Login@231f98ef]" started-at="2024-09-17T11:56:31 PDT" name="tearDown" finished-at="2024-09-17T11:56:31 PDT" duration-ms="197" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.qa.tutorialsninjaS2.testcases.S2_Login@231f98ef]" started-at="2024-09-17T11:56:31 PDT" name="setUp" finished-at="2024-09-17T11:56:36 PDT" duration-ms="5283" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="loginWithValidCredentialsUsingExcelSheet(java.lang.String,java.lang.String)[pri:2, instance:com.qa.tutorialsninjaS2.testcases.S2_Login@231f98ef]" started-at="2024-09-17T11:56:36 PDT" name="loginWithValidCredentialsUsingExcelSheet" data-provider="TutorialsNinja_S1_ExcelSheet_DataSupply" finished-at="2024-09-17T11:56:39 PDT" duration-ms="2541" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chowdhurygs@rediffmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Shajlee1@]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginWithValidCredentialsUsingExcelSheet -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.tutorialsninjaS2.testcases.S2_Login@231f98ef]" started-at="2024-09-17T11:56:39 PDT" name="tearDown" finished-at="2024-09-17T11:56:39 PDT" duration-ms="181" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.qa.tutorialsninjaS2.testcases.S2_Login@231f98ef]" started-at="2024-09-17T11:56:39 PDT" name="setUp" finished-at="2024-09-17T11:56:43 PDT" duration-ms="4481" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="loginWithValidCredentialsUsingExcelSheet(java.lang.String,java.lang.String)[pri:2, instance:com.qa.tutorialsninjaS2.testcases.S2_Login@231f98ef]" started-at="2024-09-17T11:56:43 PDT" name="loginWithValidCredentialsUsingExcelSheet" data-provider="TutorialsNinja_S1_ExcelSheet_DataSupply" finished-at="2024-09-17T11:56:45 PDT" duration-ms="1955" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chowdhurygsa@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Shajlee123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginWithValidCredentialsUsingExcelSheet -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.tutorialsninjaS2.testcases.S2_Login@231f98ef]" started-at="2024-09-17T11:56:45 PDT" name="tearDown" finished-at="2024-09-17T11:56:46 PDT" duration-ms="192" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.qa.tutorialsninjaS2.testcases.S2_Login@231f98ef]" started-at="2024-09-17T11:56:46 PDT" name="setUp" finished-at="2024-09-17T11:56:50 PDT" duration-ms="4688" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="loginWithValidCredentialsUsingExcelSheet(java.lang.String,java.lang.String)[pri:2, instance:com.qa.tutorialsninjaS2.testcases.S2_Login@231f98ef]" started-at="2024-09-17T11:56:50 PDT" name="loginWithValidCredentialsUsingExcelSheet" data-provider="TutorialsNinja_S1_ExcelSheet_DataSupply" finished-at="2024-09-17T11:56:53 PDT" duration-ms="2214" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chowdhurygs@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Shajlee1234]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginWithValidCredentialsUsingExcelSheet -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.tutorialsninjaS2.testcases.S2_Login@231f98ef]" started-at="2024-09-17T11:56:53 PDT" name="tearDown" finished-at="2024-09-17T11:56:53 PDT" duration-ms="189" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.qa.tutorialsninjaS2.testcases.S2_Login@231f98ef]" started-at="2024-09-17T11:56:53 PDT" name="setUp" finished-at="2024-09-17T11:56:57 PDT" duration-ms="4594" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="loginWithValidCredentialsUsingExcelSheet(java.lang.String,java.lang.String)[pri:2, instance:com.qa.tutorialsninjaS2.testcases.S2_Login@231f98ef]" started-at="2024-09-17T11:56:57 PDT" name="loginWithValidCredentialsUsingExcelSheet" data-provider="TutorialsNinja_S1_ExcelSheet_DataSupply" finished-at="2024-09-17T11:56:59 PDT" duration-ms="1976" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[nawshinaniqa@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Kiyaan123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginWithValidCredentialsUsingExcelSheet -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.tutorialsninjaS2.testcases.S2_Login@231f98ef]" started-at="2024-09-17T11:56:59 PDT" name="tearDown" finished-at="2024-09-17T11:56:59 PDT" duration-ms="169" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.qa.tutorialsninjaS2.testcases.S2_Login@231f98ef]" started-at="2024-09-17T11:56:59 PDT" name="setUp" finished-at="2024-09-17T11:57:04 PDT" duration-ms="4814" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="loginWithValidCredentialsUsingExcelSheet(java.lang.String,java.lang.String)[pri:2, instance:com.qa.tutorialsninjaS2.testcases.S2_Login@231f98ef]" started-at="2024-09-17T11:57:04 PDT" name="loginWithValidCredentialsUsingExcelSheet" data-provider="TutorialsNinja_S1_ExcelSheet_DataSupply" finished-at="2024-09-17T11:57:06 PDT" duration-ms="1935" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[gkcmono@yahoo.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[poultry13]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginWithValidCredentialsUsingExcelSheet -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.tutorialsninjaS2.testcases.S2_Login@231f98ef]" started-at="2024-09-17T11:57:06 PDT" name="tearDown" finished-at="2024-09-17T11:57:06 PDT" duration-ms="204" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.qa.tutorialsninjaS2.testcases.S2_Login@231f98ef]" started-at="2024-09-17T11:57:06 PDT" name="setUp" finished-at="2024-09-17T11:57:11 PDT" duration-ms="4869" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="loginWithValidCredentialsUsingExcelSheet(java.lang.String,java.lang.String)[pri:2, instance:com.qa.tutorialsninjaS2.testcases.S2_Login@231f98ef]" started-at="2024-09-17T11:57:11 PDT" name="loginWithValidCredentialsUsingExcelSheet" data-provider="TutorialsNinja_S1_ExcelSheet_DataSupply" finished-at="2024-09-17T11:57:13 PDT" duration-ms="1956" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[golamchodhury@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Shajlee123!]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginWithValidCredentialsUsingExcelSheet -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.tutorialsninjaS2.testcases.S2_Login@231f98ef]" started-at="2024-09-17T11:57:13 PDT" name="tearDown" finished-at="2024-09-17T11:57:13 PDT" duration-ms="173" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.qa.tutorialsninjaS2.testcases.S2_Login@231f98ef]" started-at="2024-09-17T11:57:13 PDT" name="setUp" finished-at="2024-09-17T11:57:19 PDT" duration-ms="5205" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="loginWithInvalidCredentials()[pri:3, instance:com.qa.tutorialsninjaS2.testcases.S2_Login@231f98ef]" started-at="2024-09-17T11:57:19 PDT" name="loginWithInvalidCredentials" finished-at="2024-09-17T11:57:21 PDT" duration-ms="2095" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginWithInvalidCredentials -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.tutorialsninjaS2.testcases.S2_Login@231f98ef]" started-at="2024-09-17T11:57:21 PDT" name="tearDown" finished-at="2024-09-17T11:57:21 PDT" duration-ms="203" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.qa.tutorialsninjaS2.testcases.S2_Login@231f98ef]" started-at="2024-09-17T11:57:21 PDT" name="setUp" finished-at="2024-09-17T11:57:26 PDT" duration-ms="4709" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="loginWithValidUsernameInvalidPassword()[pri:4, instance:com.qa.tutorialsninjaS2.testcases.S2_Login@231f98ef]" started-at="2024-09-17T11:57:26 PDT" name="loginWithValidUsernameInvalidPassword" finished-at="2024-09-17T11:57:27 PDT" duration-ms="1778" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginWithValidUsernameInvalidPassword -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.tutorialsninjaS2.testcases.S2_Login@231f98ef]" started-at="2024-09-17T11:57:27 PDT" name="tearDown" finished-at="2024-09-17T11:57:28 PDT" duration-ms="192" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.qa.tutorialsninjaS2.testcases.S2_Login@231f98ef]" started-at="2024-09-17T11:57:28 PDT" name="setUp" finished-at="2024-09-17T11:57:33 PDT" duration-ms="5256" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="loginwithInvalidUsernameValidPassword()[pri:5, instance:com.qa.tutorialsninjaS2.testcases.S2_Login@231f98ef]" started-at="2024-09-17T11:57:33 PDT" name="loginwithInvalidUsernameValidPassword" finished-at="2024-09-17T11:57:35 PDT" duration-ms="1890" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginwithInvalidUsernameValidPassword -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.tutorialsninjaS2.testcases.S2_Login@231f98ef]" started-at="2024-09-17T11:57:35 PDT" name="tearDown" finished-at="2024-09-17T11:57:35 PDT" duration-ms="181" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.qa.tutorialsninjaS2.testcases.S2_Login@231f98ef]" started-at="2024-09-17T11:57:35 PDT" name="setUp" finished-at="2024-09-17T11:57:40 PDT" duration-ms="4773" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="loginWithNoCredentials()[pri:6, instance:com.qa.tutorialsninjaS2.testcases.S2_Login@231f98ef]" started-at="2024-09-17T11:57:40 PDT" name="loginWithNoCredentials" finished-at="2024-09-17T11:57:41 PDT" duration-ms="1580" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginWithNoCredentials -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.tutorialsninjaS2.testcases.S2_Login@231f98ef]" started-at="2024-09-17T11:57:41 PDT" name="tearDown" finished-at="2024-09-17T11:57:41 PDT" duration-ms="187" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qa.tutorialsninjaS2.testcases.S2_Login -->
+      <class name="com.qa.tutorialsninjaS2.testcases.S2_Search">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.qa.tutorialsninjaS2.testcases.S2_Search@6440112d]" started-at="2024-09-17T11:54:44 PDT" name="setUp" finished-at="2024-09-17T11:54:48 PDT" duration-ms="4544" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="searchValidProduct()[pri:1, instance:com.qa.tutorialsninjaS2.testcases.S2_Search@6440112d]" started-at="2024-09-17T11:54:48 PDT" name="searchValidProduct" finished-at="2024-09-17T11:54:49 PDT" duration-ms="966" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchValidProduct -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.tutorialsninjaS2.testcases.S2_Search@6440112d]" started-at="2024-09-17T11:54:49 PDT" name="tearDown" finished-at="2024-09-17T11:54:49 PDT" duration-ms="188" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.qa.tutorialsninjaS2.testcases.S2_Search@6440112d]" started-at="2024-09-17T11:54:49 PDT" name="setUp" finished-at="2024-09-17T11:54:55 PDT" duration-ms="5148" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="searchInvalidProduct()[pri:2, instance:com.qa.tutorialsninjaS2.testcases.S2_Search@6440112d]" started-at="2024-09-17T11:54:55 PDT" name="searchInvalidProduct" finished-at="2024-09-17T11:54:55 PDT" duration-ms="803" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchInvalidProduct -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.tutorialsninjaS2.testcases.S2_Search@6440112d]" started-at="2024-09-17T11:54:55 PDT" name="tearDown" finished-at="2024-09-17T11:54:56 PDT" duration-ms="215" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qa.tutorialsninjaS2.testcases.S2_Search -->
+      <class name="com.qa.tutorialsninjaS2.testcases.S2_Landing">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.qa.tutorialsninjaS2.testcases.S2_Landing@548d708a]" started-at="2024-09-17T11:54:08 PDT" name="setUp" finished-at="2024-09-17T11:54:15 PDT" duration-ms="7163" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="validateTitleAndCurrentUrl()[pri:1, instance:com.qa.tutorialsninjaS2.testcases.S2_Landing@548d708a]" started-at="2024-09-17T11:54:15 PDT" name="validateTitleAndCurrentUrl" finished-at="2024-09-17T11:54:15 PDT" duration-ms="79" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateTitleAndCurrentUrl -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.tutorialsninjaS2.testcases.S2_Landing@548d708a]" started-at="2024-09-17T11:54:16 PDT" name="tearDown" finished-at="2024-09-17T11:54:16 PDT" duration-ms="230" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.qa.tutorialsninjaS2.testcases.S2_Landing@548d708a]" started-at="2024-09-17T11:54:16 PDT" name="setUp" finished-at="2024-09-17T11:54:21 PDT" duration-ms="4806" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="desktopsButtonIsDisplayedAndEnabled()[pri:2, instance:com.qa.tutorialsninjaS2.testcases.S2_Landing@548d708a]" started-at="2024-09-17T11:54:21 PDT" name="desktopsButtonIsDisplayedAndEnabled" finished-at="2024-09-17T11:54:21 PDT" duration-ms="81" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- desktopsButtonIsDisplayedAndEnabled -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.tutorialsninjaS2.testcases.S2_Landing@548d708a]" started-at="2024-09-17T11:54:21 PDT" name="tearDown" finished-at="2024-09-17T11:54:21 PDT" duration-ms="196" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.qa.tutorialsninjaS2.testcases.S2_Landing@548d708a]" started-at="2024-09-17T11:54:21 PDT" name="setUp" finished-at="2024-09-17T11:54:26 PDT" duration-ms="5621" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="qaFoxLogoIsDisplayed()[pri:2, instance:com.qa.tutorialsninjaS2.testcases.S2_Landing@548d708a]" started-at="2024-09-17T11:54:26 PDT" name="qaFoxLogoIsDisplayed" finished-at="2024-09-17T11:54:26 PDT" duration-ms="46" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- qaFoxLogoIsDisplayed -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.tutorialsninjaS2.testcases.S2_Landing@548d708a]" started-at="2024-09-17T11:54:26 PDT" name="tearDown" finished-at="2024-09-17T11:54:27 PDT" duration-ms="208" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qa.tutorialsninjaS2.testcases.S2_Landing -->
+      <class name="com.qa.tutorialsninjaS2.testcases.S2_Logout">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.qa.tutorialsninjaS2.testcases.S2_Logout@5890e879]" started-at="2024-09-17T11:54:36 PDT" name="setUp" finished-at="2024-09-17T11:54:41 PDT" duration-ms="4707" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="logOutTest()[pri:0, instance:com.qa.tutorialsninjaS2.testcases.S2_Logout@5890e879]" started-at="2024-09-17T11:54:41 PDT" name="logOutTest" finished-at="2024-09-17T11:54:44 PDT" duration-ms="2830" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logOutTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.tutorialsninjaS2.testcases.S2_Logout@5890e879]" started-at="2024-09-17T11:54:44 PDT" name="tearDown" finished-at="2024-09-17T11:54:44 PDT" duration-ms="196" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qa.tutorialsninjaS2.testcases.S2_Logout -->
+      <class name="com.qa.tutorialsninjaS2.testcases.S2_Register">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.qa.tutorialsninjaS2.testcases.S2_Register@31ea9581]" started-at="2024-09-17T11:54:56 PDT" name="setUp" finished-at="2024-09-17T11:55:01 PDT" duration-ms="4879" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="registerWithAllFields()[pri:0, instance:com.qa.tutorialsninjaS2.testcases.S2_Register@31ea9581]" started-at="2024-09-17T11:55:01 PDT" name="registerWithAllFields" finished-at="2024-09-17T11:55:03 PDT" duration-ms="2719" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registerWithAllFields -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.tutorialsninjaS2.testcases.S2_Register@31ea9581]" started-at="2024-09-17T11:55:03 PDT" name="tearDown" finished-at="2024-09-17T11:55:03 PDT" duration-ms="214" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.qa.tutorialsninjaS2.testcases.S2_Register@31ea9581]" started-at="2024-09-17T11:55:03 PDT" name="setUp" finished-at="2024-09-17T11:55:08 PDT" duration-ms="4752" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="registerWithNoFields()[pri:0, instance:com.qa.tutorialsninjaS2.testcases.S2_Register@31ea9581]" started-at="2024-09-17T11:55:08 PDT" name="registerWithNoFields" finished-at="2024-09-17T11:55:10 PDT" duration-ms="1908" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registerWithNoFields -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.tutorialsninjaS2.testcases.S2_Register@31ea9581]" started-at="2024-09-17T11:55:10 PDT" name="tearDown" finished-at="2024-09-17T11:55:10 PDT" duration-ms="201" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.qa.tutorialsninjaS2.testcases.S2_Register@31ea9581]" started-at="2024-09-17T11:55:10 PDT" name="setUp" finished-at="2024-09-17T11:55:15 PDT" duration-ms="4535" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="registerWithRequiredFields()[pri:0, instance:com.qa.tutorialsninjaS2.testcases.S2_Register@31ea9581]" started-at="2024-09-17T11:55:15 PDT" name="registerWithRequiredFields" finished-at="2024-09-17T11:55:17 PDT" duration-ms="2410" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registerWithRequiredFields -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.tutorialsninjaS2.testcases.S2_Register@31ea9581]" started-at="2024-09-17T11:55:17 PDT" name="tearDown" finished-at="2024-09-17T11:55:17 PDT" duration-ms="196" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qa.tutorialsninjaS2.testcases.S2_Register -->
+    </test> <!-- Tutorials_NinJa_S2_Test -->
+  </suite> <!-- Tutorials_Ninja_S2_Automation_Suite -->
+</testng-results>
